@@ -33,6 +33,7 @@ with st.sidebar:
     )
 
     modele = st.selectbox(
+        
         "Modèle YOLO",
         ["yolov8n.pt", "yolov8s.pt"],
         help="nano = plus rapide, small = plus précis",

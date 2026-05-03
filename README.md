@@ -8,11 +8,11 @@ Système de **détection de chutes en temps réel** basé sur une architecture *
 Chaque agent est responsable d'une tâche précise et communique avec les suivants.
 
 ```
-Agent Capture (OpenCV)
-    ↓  flux vidéo frame par frame
-Agent Détection (YOLOv8)
-    ↓  anomalies détectées
-Agent Alerte (Streamlit)
+- Agent Capture (OpenCV)
+      flux vidéo frame par frame
+- Agent Détection (YOLOv8)
+     anomalies détectées
+- Agent Alerte (Streamlit)
     ↓  affichage en direct + historique
 ```
 
